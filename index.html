@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="assets/css/style.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+
+<!-- Main navigation -->
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar secondary-color-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><strong>MDB</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+    </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- Full Page Intro -->
+ 
+  <!-- Full Page Intro -->
+</header>
+<!-- Main navigation -->
+                    
+<div class="container">
+    <div class="largeheader">
+	
+	</div>
+	</div>
+
+	
+	
+	
+	
+	
+	
+<section class="section mb-5" style="padding-top:200px" id = "firstsection">
+<!--First row-->
+
+      <div class="row ml-5 mr-5 mt-2 wow fadeIn" data-wow-delay="0.2s">
+        <!--First column-->
+        <div class="col-lg-3 col-md-6">
+          <div class="view overlay z-depth-1">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" class="img-fluid " alt="">
+            <div class="mask flex-center rgba-gradient">
+              jnjhnknknkmlml
+            </div>
+			<div style="width:inherit">
+			<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+			</div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/First column-->
+        <!--Second column-->
+        <div class="col-lg-3 col-md-6">
+          <div class="view overlay z-depth-1 rgba-gradient" ">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img4.jpg " class="img-fluid " alt=" ">
+            <div class="mask flex-center  rgba-gradient">
+              <a class="btn btn-outline-white btn-rounded wow fadeInUp " data-wow-delay="0.2s " href="#tour " data-offset="85 ">
+                <span>SEE MORE</span>
+              </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4 ">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-lg-3 col-md-6 ">
+          <div class="view overlay z-depth-1">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" class="img-fluid " alt="">
+            <div class="mask flex-center rgba-gradient">
+              <a class="btn  btn-outline-white btn-rounded wow fadeInUp" data-wow-delay="0.2s" href="#tour" data-offset="85">
+                  <span>SEE MORE</span>
+              </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/Third column-->
+        <!--Fourth column-->
+        <div class="col-lg-3 col-md-6">
+          <div class="view overlay z-depth-1 rgba-gradient" ">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img6.jpg " class="img-fluid " alt=" ">
+            <div class="mask flex-center  rgba-gradient">
+              <a class="btn btn-outline-white btn-rounded wow fadeInUp " data-wow-delay="0.2s " href="#tour " data-offset="85 ">
+                  <span>SEE MORE</span>
+              </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4 " style="overflow:hidden">
+		  <audio id="yourAudio" preload="none" >
+  <source src="assets/audio/jeje.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+<a href="#" id="audioControl" class="fa fa-play"></a>
+<span class="fa fa-download"></span>
+</p>
+
+
+
+<script>
+var yourAudio = document.getElementById('yourAudio');
+    ctrl = document.getElementById('audioControl');
+	
+
+ctrl.onclick = function () {
+  
+    // Update the Button
+   var pause = ctrl.innerHTML === 'pause!';
+   ctrl.className = "fa fa-pause" ? ctrl.className = "fa fa-play" : ctrl.className = "fa fa-pause";
+	
+	var pausse = document.getElementById("audioControl").className = "fa fa-pause";
+	//var playy  = document.getElementById("audioControl").className = "fa fa-play";
+
+    // Update the Audio
+    var method = pause ? 'pause' : 'play';
+    yourAudio[method]();
+	
+	
+    
+    
+    var aud = document.getElementById("yourAudio");
+    aud.onended = function() {
+    ctrl.className = "fa fa-play";//innerHTML ="Play";
+	//set a cookie and assign the value of the file ID to the cookie.
+	//document.cookie = "played=3";
+	
+	
+	
+	
+};
+ var audioState = "fa fa-pause";
+   switch(audioState){
+      case "fa fa-pause": document.getElementById("audioControl").className = "fa fa-play";
+	  case "fa fa-play": document.getElementById("audioControl").className = "fa fa-pause";
+   }
+
+
+    // Prevent Default Action
+    return false;
+	
+};
+
+function testFunction(){
+window.alert("I was clicked!");
+}
+</script>
+        </div>
+        <!--/Fourth column-->
+
+      </div>
+      <!--/First row-->
+
+      <!--Second row-->
+      <div class="row ml-5 mr-5 mt-2 wow fadeIn " data-wow-delay="0.2s ">
+
+        <!--First column-->
+        <div class="col-lg-3 col-md-6 ">
+          <div class="view overlay z-depth-1">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img7.jpg" class="img-fluid " alt="">
+            <div class="mask flex-center rgba-gradient">
+              <a class="btn  btn-outline-white btn-rounded wow fadeInUp" data-wow-delay="0.2s" href="#tour" data-offset="85">
+                <span>SEE MORE</span>
+              </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/First column-->
+        <!--Second column-->
+        <div class="col-lg-3 col-md-6">
+          <div class="view overlay z-depth-1">
+              <img src="https://mdbootstrap.com/img/Photos/Others/img5.jpg " class="img-fluid " alt=" ">
+              <div class="mask flex-center  rgba-gradient">
+                  <a class="btn btn-outline-white btn-rounded wow fadeInUp " data-wow-delay="0.2s " href="#tour " data-offset="85 ">
+                       <span>SEE MORE</span>
+                  </a>
+              </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4 ">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-lg-3 col-md-6 ">
+          <div class="view overlay z-depth-1">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" class="img-fluid " alt="">
+            <div class="mask flex-center rgba-gradient">
+              <a class="btn  btn-outline-white btn-rounded wow fadeInUp" data-wow-delay="0.2s" href="#tour" data-offset="85">
+                  <span>SEE MORE</span>
+              </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4">Lorem ipsum dolor sit</p>
+        </div>
+        <!--/Third column-->
+        <!--Fourth column-->
+        <div class="col-lg-3 col-md-6">
+          <div class="view overlay z-depth-1 rgba-gradient" ">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img10.jpg " class="img-fluid " alt=" ">
+            <div class="mask flex-center  rgba-gradient">
+                <a class="btn btn-outline-white btn-rounded wow fadeInUp " data-wow-delay="0.2s " href="#tour " data-offset="85 ">
+                     <span>SEE MORE</span>
+                </a>
+            </div>
+          </div>
+          <p class="text-uppercase text-center grey-text mt-4 mb-4 ">Lorem ipsum dolor sit</p>
+        </div>
+  
+</section>
+<div class="fixed-bottom col-lg-12 secondary-color-light">.hghghugouig uigopu igp8yugluigtuygug ;..</div>
+    <!-- Start your project here-->
+  
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+</body>
+
+</html>

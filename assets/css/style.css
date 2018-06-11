@@ -1,0 +1,15 @@
+
+html,
+body,
+header,
+.largeheader {
+  height: 100%;
+  background-image:url(http://www.wallpapers4u.org/wp-content/uploads/purple_white_background_stains_abstract_65537_1364x768.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+@
+#firstsection{
+	
+}
